@@ -1,4 +1,42 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+background:#37323E;
+margin-top:100px
+}
+
+.card {/* Unordered List Style */
+    .card ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-top: 15px;
+    }
+    
+    background: #B9A44C;
+    color:#000000;
+    margin: 0 auto;
+    width:500px;
+    height:300px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.card div{
+    padding:20px;
+}
+
+h1{
+    padding:20px;
+    background: #566E3D; 
+    margin: 0;    
+    border-radius: 20px 20px 0 0;
+}
+
+img {
+float: left;
+margin-right:20px
+}
+.card {
+
+    font-family: Times New Roman", Arial;
+
 }
